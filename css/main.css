@@ -1,0 +1,168 @@
+/***** BASE STYLES *****/
+
+Body, footer {
+  font-family: 'Andika', sans-serif;
+}
+
+footer {
+  height: 10px;
+  text-align: center;
+}
+
+
+#about {
+  height: 850px;
+}
+
+#work {
+  height: 600px;
+}
+
+#contact {
+    height: 508px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1206px;
+    margin: 0 auto;
+}
+
+.half-width {
+  width: 580px;
+  float: left;
+}
+
+.third-width {
+  width: 402px;
+  float: left;
+}
+
+/********Header********/
+header {
+    height: 900px;
+    background: url("../img/header-background.jpg");
+    background-size: cover;
+}
+#home .full-width {
+    padding: 70px;
+  }
+
+nav {
+    float: left;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding-right: 70px;
+    text-align: left;
+    margin-left: -40px;
+}
+header h1 {
+  font-family: 'Cabin Sketch', cursive;
+  font-weight: bold;
+  font-size: 72px;
+  color: #ab2148;
+  overflow: auto;
+  clear: both;
+  padding-top: 280px;
+  margin-bottom: -20px;
+}
+header h2 {
+  font-size: 45px;
+}
+header h3 {
+  font-family: 'Crimson Text', serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: lighter;
+}
+header h4 a {
+  font-family: 'Crimson Text', serif;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: 24px;
+  color: #464646;
+}
+/**********Blog Page***********/
+header img {
+  padding-right: 30px;
+}
+
+/***********About**************/
+#about .full-width {
+    padding: 70px;
+}
+#about-me {
+  text-align: center;
+  padding-left: 46px;
+}
+#about-me h2 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 36px;
+}
+#about-me p {
+  font-size: 22px;
+}
+#about-me a {
+  font-size: 25px;
+  color: #464646;
+  text-decoration: underline;
+}
+/***********work************/
+
+#work {
+  background-color: #fabebe;
+  text-align: center;
+}
+#work .full-width {
+  padding: 40px 70px;
+}
+#work h2 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 36px;
+  padding-bottom: 30px;
+}
+#work h3 {
+  font-size: 24px;
+  color: #2b2b2b;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+#work p {
+  font-size: 20px;
+  padding: 0 35px;
+}
+/***********Contact**********/
+#contact {
+  background: url("../img/contact.jpg");
+  background-size: cover;
+}
+#contact .full-width {
+  padding: 70px 70px;
+}
+#contact ul li {
+  display: inline-block;
+}
+#contact p, a {
+  line-height: 25px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+}
+#envelope {
+    padding: 0 10px 0 0;
+}
+#contact ul li a {
+  padding-right: 70px;
+  text-align: left;
+  margin-left: -40px;
+  font-size: 30px;
+  color: white;
+}
